@@ -1,0 +1,8 @@
+Sub PresentValue()
+Dim PV As Double, FV As Double, i As Double, n As Integer
+FV = 10000
+i = 0.05
+n = 10
+PV = FV / (1 + i) ^ n
+Range("A1") = PV
+End Sub
